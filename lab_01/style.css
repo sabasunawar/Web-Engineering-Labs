@@ -1,0 +1,61 @@
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    line-height:1.2em;
+}
+header , section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+navbar{
+    height:20vh;
+}
+ul li{
+    margin:3px;
+    font-size:1.2em;
+    list-style-type: square; 
+  
+}
+
+/* HOME SECTION */
+#container{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    height:90%;
+    width:70%;
+    border:2px solid black;
+    border-radius: 25px;
+    background-color:rgb(247, 239, 238);
+}
+p{
+    margin-top:30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    font-size: larger;
+    text-align:center;
+    padding:7px;
+}
+h1{
+    font-size: 2.2rem;
+}
+/* Gallery */
+table{
+   height:100%;
+   width:100%;
+   margin-top:20px;
+}
+img{
+    width:80%;
+    height:22vh;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    border:2px solid pink;
+    box-shadow: 0px 2px 3px rgb(223, 55, 83);
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Food Delivery Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and(max-width:1000px)" href="phone.css">
+  <script src="index.js"></script>
+</head>
+
+<body>
+
+  <!-- NAVBAR SECTION -->
+
+  <navbar id="navbar">
+    <div id="logo"><img src="images/logo.jpg" alt="Myonlinemeal.com">
+    </div>
+    <ul>
+      <li class="items"><a href="#home">Home</a></li>
+      <li class="items"><a href="#service">Services</a></li>
+      <li class="items"><a href="#client-section">About Us</a></li>
+      <li class="items"><a href="#contact">Contact Us</a></li>
+      <li class="items"><a href="#complaint-form">Complaint Form</a></li>
+      
+    </ul>
+  </navbar>
+
+  <!-- HOME SECTION -->
+  <section id="home">
+    <h1 class="h-primary">Wellcome to MyOnlinemeals</h1>
+    <p class="paragraph text-center">
+      An online food ordering system can be defined as system that allows restaurants
+      or food business <br>to accept and manage orders placed over the internet.
+    </p>
+
+    <p class="paragraph text-center">
+      Our restaurant ordering system helps people view restaurant dishes
+      and place <br> an online order in four simple steps.
+      Choose from the available<br> dishes and add them to the shopping cart.
+    </p>
+    <button class="btn">Order Food Now</button>
+  </section>
+
+  <!-- SERVICES SECTION -->
+<hr>
+  <section id="service">
+    <h1 class="h-primary text-center">Available Services</h1>
+    <div id="services">
+      <div class="box">
+        <img src="./images/item.jpg" alt="fooditem">
+        <h2 class="h-secondary center">Food Ordering</h2>
+        <p class="text-center paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Accusantium iste amet aliquam sint voluptatem. Ipsa officiis
+          dolores consectetur, vel repellendus possimus doloremque.
+        </p>
+      </div>
+      <div class="box">
+        <img src="./images/item1.jpg" alt="fooditem">
+        <h2 class="h-secondary center">Food Serving</h2>
+        <p class="text-center paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Accusantium iste amet aliquam sint voluptatem. Ipsa officiis
+          dolores consectetur, vel repellendus possimus doloremque.
+        </p>
+      </div>
+      <div class="box">
+        <img src="./images/new.jpg" alt="fooditem">
+        <h2 class="h-secondary center">Food delivery</h2>
+        <p class="text-center paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit.Accusantium iste amet
+          aliquam sint voluptatem. Ipsa officiis dolores consectetur, vel repellendus possimus doloremque.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENT OR ABOUT US SECTION -->
+  <section id="client-section">
+    <h1 class="hh-primary text-center">ABOUT US</h1>
+    <div class="aboutus">
+    <DIV class="h-secondary ">
+     <h1> <italic>MyOnlinemeals </italic></h1>
+    </DIV>
+    <p class="paragraph text-center ">
+      “We ought to be about something beyond moving chicken.
+      We ought to be a piece of our clients’ lives and the networks
+      in which we serve.”
+
+      Our originator, settled on the choice to close on Sundays in 1946 when he opened his first eatery
+      in Hapeville, Georgia. Having worked seven days seven days in eateries open 24 hours,
+      Truett saw the significance of shutting on Sundays with the goal that he and his representatives
+      could set aside one day to rest and love whether they pick – a training we maintain today.
+    </p>
+  </div>
+    <div id="clients">      
+      <div class="client-item">
+        <img src="./images/logo2.png" alt="our clients">
+      </div>
+      <div class="client-item">
+        <img src="./images/logo1.png" alt="our clients">
+      </div>
+      <div class="client-item">
+        <img src="./images/logo3.png" alt="our clients">
+      </div>
+      <div class="client-item">
+        <img src="./images/logo4.png" alt="our clients">
+      </div>
+      <div class="client-item">
+        <img src="./images/logo5.png" alt="our clients">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+
+  <section id="contact">
+    <h1 class="text-center hh-primary">Contact Us</h1>
+    <div id="contact-box">
+
+    <form action="submit">
+
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" name="Email" id="email" placeholder="Enter your email">
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="phone" name="phone" id="phone" placeholder="Enter your phone">
+      </div>
+
+      <div class="form-group">
+        <label for="msg">Suggestions:</label>
+        <textarea name="suggestion" id="msg" cols="30" rows="10" placeholder="Any comments"></textarea>
+      </div>
+
+    </form>
+  </div>
+  </section>
+
+  <section id="complaint-form">
+    <div id="container">
+      <div id="form-container">
+          <h1>Complaint Form</h1>
+          <form >
+              <label for="name">Name</label><br>
+              <input type="text" name="fullname"> <br>
+              <label for="username"> Username</label><br>
+              <input type="email" placeholder="Enter Email" name="email" required><br>
+              <label for="titleofcomplaint">Complaint Title</label><br>
+              <input type="text" name="title"></br>
+              <label for="complaint"> Complaint</label><br>
+             <textarea name="Complaint-details"  cols="20" rows="7" placeholder="Add...." name="detail-description"></textarea>  </br>
+          </form>
+          <button id="btn" type="submit" value="register">Submit</button>
+  </section>
+
+  <!-- Footer Section -->
+
+  <footer id="footer">
+    <div class="text-center paragraph">
+      Copyright &copy; www.myonlinemeals.com. All rights are reserved. 
+    </div>
+  </footer>
+</body>
+</html>

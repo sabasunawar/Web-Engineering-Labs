@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+form {
+    width: 300px;
+    max-width: 100%;
+}
+
+form input {
+    width: 100%;
+}
+
+span {
+    color: red;
+    display: block;
+    visibility: hidden;
+}
+
+.mb-3.error span {
+    visibility: visible;
+}
+
+.mb-3.error input {
+    background-color: rgb(255, 213, 213);
+}

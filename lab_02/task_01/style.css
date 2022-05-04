@@ -1,0 +1,354 @@
+/* CSS RESET PROPERTY */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    overflow:scroll;
+
+}
+
+/* Navbar Styling */
+#navbar
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+      
+}
+#navbar::before
+{
+    content: "";
+    /* background-color: rgb(245 40 102 / 60%);  */
+    background-color:black ;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+/* Navbar Styling: LOGO STYLING */
+#logo
+{
+    padding: 0px 8px;
+    margin: 8px 1px;
+    
+}
+/* Navbar Styling: IMAGE STYLING*/
+#logo img
+{
+    margin: 16px 10px;
+    height: 36px;
+    border-radius: 10px 10px;
+    border: 3px solid greenyellow;
+}
+#navbar ul
+{
+    display: flex;
+}
+
+#navbar ul li
+{
+    list-style: none;
+    font-size: 1.2rem;    
+}
+
+#navbar ul li a
+{
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px ;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 20px 20px;
+    font-family: sans-serif;
+    color: rgb(245 238 237);
+    border-radius: 30px 30px;
+   
+}
+#navbar ul li a:hover
+{
+    display: block;
+    color:whitesmoke;
+    background-color: salmon;
+    border: 2px solid black;
+    
+}
+/* HOME SECTION */
+#home
+{
+    display: flex;
+    flex-direction:column;
+    padding: 10px 20px;
+    height: 599px;
+    align-items: center;
+    justify-content: center;
+}
+#home::before
+{
+   content: "";
+   position: absolute;
+   background: url('./images/vegetable-skewer-3317060_640.jpg') no-repeat center center/cover;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+   top: 0px;
+   left: 0px;
+   opacity: 0.3;
+}
+
+/*  SERVICES SECTION*/
+
+#services 
+{
+    display: flex;
+    margin: 14px 14px 145px 14px;
+}
+
+#services .box{
+    border: 2px solid #b35325;
+    padding: 8px 4px;
+    margin: -66px 25px;
+    border-radius: 23px;
+    background-color: #fa807212;
+    box-shadow: 4px 6px 10px deeppink;
+}
+#services .box img
+{ 
+    height:160px;
+    display: block;
+    margin:auto;
+}
+
+/*  ABOUT US,CLIENTS OR SPONSERS*/
+
+.aboutus
+{
+    padding: 47px 106px;
+    margin: -35px 75px;
+    transform: translateY(-60px);   
+}
+
+#client-section
+{
+ height: 700px;  
+ position: relative; 
+ margin: -39px 0px;
+}
+
+#client-section::before
+{
+    content: "";
+    position: absolute;
+    background: url('images/clientsbg.jpg') no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    height: 590px;
+    top: 0px;
+    left: 0px;
+    opacity: 0.2;
+}
+#clients
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    box-shadow: 3px 3px 17px deeppink; 
+    margin-top: 50px;
+}
+#clients img
+{
+    height:100px;
+    border-radius: 23px
+}
+.client-item
+{
+    padding: 23px;
+    margin: 10px;
+}
+
+/* Contact us section */
+
+#contact
+{
+    position: relative;
+    transform: translateY(-35px);
+}
+
+#contact::before
+{
+    
+    content: "";
+    position: absolute;
+    background: url('images/contactusbg.png') no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    height: 520px;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+#contact-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box label
+{
+    font-weight: bold;
+    color: #04000e;
+}
+
+#contact-box input,
+#contact-box textarea
+{
+    padding: 3px;
+    margin: 3px;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid deeppink;
+    color: salmon;
+}
+
+#contact-box form
+{
+    width: 40%;
+}
+
+#contact-box form
+{
+    font-weight: 400px;
+}
+/* Utility Classes */
+.h-primary
+{
+    color:salmon;
+    text-shadow: 0px -1px black, 1px 0px black, -1px 0px black;
+    font-size: 3.8rem;
+    font-weight: 800;
+    padding: 2px 20px;
+    font-family: sans-serif;
+    transform: translateY(-70px); 
+   
+}
+.hh-primary
+{
+    color:salmon;
+    text-shadow: 0px -1px black, 1px 0px black, -1px 0px black;
+    font-size: 3.8rem;
+    font-weight: 800;
+    padding: 2px 20px;
+    font-family: sans-serif;
+   
+}
+.paragraph
+{
+    padding: 0px 10px;
+    margin: 2px;
+    font-size: 1.1rem;
+    color: rgb(173 8 51);
+    font-weight: bold;
+}
+.btn
+{
+    color:white;
+    background-color: rgb(221, 29, 103);
+    border: 1px solid black;
+    padding: 10px 7px;
+    margin: 2px 12px;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transform: translateY(20px);
+    
+}
+.h-secondary
+{
+    text-align: center;
+    color: salmon;
+    padding:10px;
+    font-weight: 1.8rem;
+    margin: 37px 0px;
+}
+.text-center
+{
+    text-align: center;
+}
+
+#footer
+{
+    background-color: #e9967a78;
+    padding: 25px 34px;
+    margin-top: 26px;
+    margin-bottom: 0px;
+}
+h1{
+    text-align: center;
+    color:purple;
+    font-size: 2.7rem;
+    padding: 20px 20px;
+    text-shadow:0px 0px 4px white;
+} 
+#container
+{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: pink;
+}
+#form-container{
+    box-shadow: 0px 0px 5px purple;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    height:78vh;
+    width:36vw;
+    border-radius: 10px;
+    margin-top:11vh;
+}
+label{
+   font-size: 1.3rem; 
+   font-weight: bold;  
+   margin-top:4px;
+  }
+input{
+  width: 20vw;
+  padding:5px;
+  margin:3px;
+  border:1px solid purple;
+  font-size:medium;
+  border-radius: 3px;
+}
+textarea{
+  width:20vw;
+  margin:3px;
+  border:1px solid purple;
+  font-size:1rem;
+  padding:5px;
+  border-radius: 3px;
+}
+#btn{
+  padding:12px;
+  background-color:purple;
+  color:white;
+  font-size: 1.3rem;
+  margin:7px;
+  border-style: none;
+  border-radius:10px;
+  cursor:pointer;
+
+}
+
+
+   
+

@@ -1,0 +1,48 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+h1{
+    margin-left:55px;
+}
+.task2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+/* TASK 2 CSS*/
+p{
+    text-align: center;
+    color:red;
+    font-size: large;
+}
+.task2{
+    height:30vh;
+    width:30vw;
+    border: 2px solid black;
+}
+.task2 h3{
+    text-align:center;
+}
+.task2 h3:hover{
+    font-size: 1.5rem;
+    color:red;
+}
+/* TASK 2 CSS*/
+.task3{
+    height:50h;
+    width:50vw;
+    border: 2px solid black; 
+    background-image: url("images/pic1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:250px 125px;
+    overflow-y: scroll;
+    line-height:3em;
+    margin:5px;
+    background-attachment: fixed;
+    
+
+}

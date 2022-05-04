@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Food Delivery Website</title>
+</head>
+<body>
+   <header>
+       <h1>Online Food Delivery Website</h1>
+    <navbar id="navbar"> 
+       <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="#gallery">Gallery</a></li>
+       <li><a href="#about-us">About Us</a></li>
+       <li><a href="#">Contact Us</a></li>
+       <li><a href="#">Complaint Form</a></li>
+        </ul>
+    </navbar>
+   </header>
+
+   <!-- HOME SECTION:- -->
+   <section id="home" style="height:70vh; width:98vw" >
+    <div id="container">
+    <h1>MyOnlinemeals</h1>
+    <p>
+    Online food ordering is a process of ordering food from a local restaurant or
+    food cooperative through a web page or app. Much like ordering consumer goods online,
+    many of these allow customers to keep accounts with them in order to make frequent ordering convenient. 
+    </p>
+    <h3>Availability for 24 hours.</h3>
+     </div>
+     </section>
+<section  id="gallery" style="height:100vh; width:98vw">
+<div id="container">
+    <h1> Gallery</h1>
+    <table>
+        <tr class="row">
+            <td><img src="images/clientsbg.jpg" alt="Food image"></td>
+            <td><img src="images/item1.jpg" alt="Food image"></td>
+        </tr>
+        <tr class="row">
+            <td><img src="images/vegetable-skewer-3317060_640.jpg" alt="Food image"></td>
+            <td><img src="images/aboutusbg.jpg" alt="Food image"></td>
+        </tr>
+        <tr class="row">
+            <td><img src="images/clientsbg.jpg" alt="Food image"></td>
+            <td><img src="images/item2.jpg" alt="Food image"></td>
+        </tr>
+    </table>
+</div>
+</section>
+
+<!-- About Us -->
+
+<section id="about-us" style="height:100vh; width:98vw">
+<div id="container">
+    <h1>About Us</h1>
+<p>
+     “We ought to be about something beyond moving chicken.
+      We ought to be a piece of our clients’ lives and the networks
+      in which we serve.” <br>
+      Our originator, settled on the choice to close on Sundays in 1946 when he opened his first eatery
+      in Hapeville, Georgia. Having worked seven days seven days in eateries open 24 hours,
+      Truett saw the significance of shutting on Sundays with the goal that he and his representatives
+      could set aside one day to rest and love whether they pick – a training we maintain today.
+</p>
+<table>
+    <tr>
+        <td><img src="images/logo2.png" alt="Logo"></td>
+        <td><img src="images/logo1.png" alt="Logo"></td>
+    </tr>
+    <tr>
+        <td><img src="images/logo3.png" alt="Logo"></td>
+        <td><img src="images/logo4.png" alt="Logo"></td>
+    </tr>
+</table>
+</div>
+</section>
+
+<!-- Contact Us -->
+<section id="contact-us" style="height:100vh; width:98vw">
+<div id="container">
+    <h1> Contact Us</h1>
+    <form action="submit">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name"><br>
+        <label for="email">Email:</label>
+        <input type="email" name="Email" id="email" placeholder="Enter your email"><br>
+        <label for="phone">Phone:</label>
+        <input type="phone" name="phone" id="phone" placeholder="Enter your phone"><br>
+        <label for="msg">Suggestions:</label><br>
+        <textarea name="suggestion" id="msg" cols="30" rows="10" placeholder="Any comments"></textarea><br>
+        <button id="btn">Contact</button>
+    </form>
+</div>
+</section>
+
+<!-- Complaint Form -->
+<section id="complaint-form" style="height:100vh; width:98vw">
+<div id="container">
+    <h1>Complaint Form</h1>
+          <form >
+              <label for="name">Name</label><br>
+              <input type="text" name="fullname"> <br>
+              <label for="username"> Username</label><br>
+              <input type="email" placeholder="Enter Email" name="email" required><br>
+              <label for="titleofcomplaint">Complaint Title</label><br>
+              <input type="text" name="title"></br>
+              <label for="complaint"> Complaint</label><br>
+             <textarea name="Complaint-details"  cols="20" rows="7" placeholder="Add...." name="detail-description"></textarea>  </br>
+          </form>
+          <button id="btn" type="submit" value="register">Submit</button>
+</div>
+</section>
+</body>
+</html>
